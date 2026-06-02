@@ -4,7 +4,18 @@ import llmImage from "./assets/llm-assistant.png";
 import heroImage from "./assets/hero.png";
 
 function App() {
-  const skills = ["Python", "SQL", "Power BI", "Excel", "Pandas", "Plotly", "Streamlit", "GitHub", "LLMs", "EDA"];
+  const skills = [
+    "Python",
+    "SQL",
+    "Power BI",
+    "Excel",
+    "Pandas",
+    "Plotly",
+    "Streamlit",
+    "GitHub",
+    "LLMs",
+    "EDA",
+  ];
 
   return (
     <main>
@@ -43,8 +54,8 @@ function App() {
 
         <div className="hero-right">
           <div className="photo-space">
-           <img src={heroImage} alt="Pranav Iyer" className="hero-image" />
-           </div>
+            <img src={heroImage} alt="Pranav Iyer" className="hero-image" />
+          </div>
         </div>
       </section>
 
@@ -102,8 +113,20 @@ function App() {
                 venue intelligence, strategy analysis, and phase-wise insights.
               </p>
               <div className="links">
-                <a href="https://ipl-cricket-analytics-ueoqvw7szskkdrvzt8xqbm.streamlit.app/" target="_blank">Live App</a>
-                <a href="https://github.com/pranaviyer22/IPL-Cricket-Analytics" target="_blank">GitHub</a>
+                <a
+                  href="https://ipl-cricket-analytics-ueoqvw7szskkdrvzt8xqbm.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live App
+                </a>
+                <a
+                  href="https://github.com/pranaviyer22/IPL-Cricket-Analytics"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
               </div>
             </div>
           </article>
@@ -118,7 +141,13 @@ function App() {
                 natural language analytics workflows.
               </p>
               <div className="links">
-                <a href="https://github.com/pranaviyer22/LLM-Powered-Data-Analysis-Assistant" target="_blank">GitHub</a>
+                <a
+                  href="https://github.com/pranaviyer22/LLM-Powered-Data-Analysis-Assistant"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
               </div>
             </div>
           </article>
@@ -126,18 +155,42 @@ function App() {
       </section>
 
       <section className="section" id="certifications">
-        <p className="eyebrow">Certification</p>
-        <h2>Learning & Certifications</h2>
+        <p className="eyebrow">Certifications</p>
+        <h2>Learning & Professional Credentials</h2>
 
-        <div className="simple-card">
-          <h3>The Ultimate Job Ready AI Powered Data Analytics Course</h3>
-          <p>
-            Completed a data analytics program covering Python, SQL, Power BI,
-            Excel, EDA, visualization, and analytics workflows.
-          </p>
-          <a href="https://www.codewithharry.com/courses/the-ultimate-job-ready-ai-powered-data-analytics-course" target="_blank">
-            View Certification
-          </a>
+        <div className="certification-grid">
+          <div className="simple-card">
+            <h3>TiECon Vadodara 2025 Business Executive Internship Certificate</h3>
+            <p>
+              Recognized for contributions as a Business Executive Intern,
+              supporting startup ecosystem initiatives, stakeholder engagement,
+              event operations, and entrepreneurship-focused activities at
+              TiECon Vadodara 2025.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1J5k5uIpw1rFOby3l8_JYFws7PySABUid/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Credential
+            </a>
+          </div>
+
+          <div className="simple-card">
+            <h3>Professional Certificate in Data Analytics & Business Intelligence</h3>
+            <p>
+              Completed comprehensive training in Python, SQL, Excel, Power BI,
+              Data Visualization, Exploratory Data Analysis, and business-focused
+              analytical workflows for data-driven decision making.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1GXuApfUXxBMU5RvhLiP55l3RuxTUqz_X/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Credential
+            </a>
+          </div>
         </div>
       </section>
 
@@ -150,7 +203,13 @@ function App() {
             Gained exposure to communication, client interaction, teamwork, and
             business workflows.
           </p>
-          <a href="YOUR_CERTIFICATE_LINK" target="_blank">View Certificate</a>
+          <a
+            href="https://drive.google.com/file/d/1J5k5uIpw1rFOby3l8_JYFws7PySABUid/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Certificate
+          </a>
         </div>
       </section>
 
@@ -160,26 +219,26 @@ function App() {
         <p>Email: pranaviyeroff22@gmail.com</p>
         <p>Location: Vadodara, Gujarat</p>
       </section>
+
       <footer className="footer">
-  <p>© 2026 Pranav Iyer. Built with React.</p>
+        <p>© 2026 Pranav Iyer. Built with React.</p>
 
-  <div>
-    <a href="https://github.com/pranaviyer22" target="_blank">
-      GitHub
-    </a>
+        <div>
+          <a href="https://github.com/pranaviyer22" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
 
-    <a
-      href="https://www.linkedin.com/in/pranav-iyer-145b67367/"
-      target="_blank"
-    >
-      LinkedIn
-    </a>
+          <a
+            href="https://www.linkedin.com/in/pranav-iyer-145b67367/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
 
-    <a href="mailto:pranaviyeroff22@gmail.com">
-      Email
-    </a>
-  </div>
-</footer>
+          <a href="mailto:pranaviyeroff22@gmail.com">Email</a>
+        </div>
+      </footer>
     </main>
   );
 }

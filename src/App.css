@@ -369,3 +369,28 @@ main {
 .footer a:hover {
   color: #2563eb;
 }
+/* CERTIFICATIONS */
+
+.certification-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.certification-grid .simple-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.certification-grid .simple-card a {
+  width: fit-content;
+}
+
+@media (max-width: 900px) {
+  .certification-grid {
+    grid-template-columns: 1fr;
+  }
+}
